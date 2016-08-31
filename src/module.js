@@ -1,5 +1,32 @@
 'use strict';
 
+const fs = require('fs');
+const path = require('path');
+
+const exists = (path) => {
+    try {
+        fs.statSync(path);
+
+        return true;
+    } catch (err) {
+        return false;
+    }
+};
+
+const resolve = () => {
+    var packagePath = path.resolve(__dirname, '..', 'package.json');
+
+    while (exists(packagePath)) {
+        const codelyzerPath = path.resolve(path.dirname(packagePath), 'node_modules', 'codelyzer');
+
+        if (exists(codelyzerPath)) {
+            return codelyzerPath;
+        }
+
+        packagePath = path.resolve(packagePath, '..', '..', '..', 'package.json');
+    }
+};
+
 module.exports = {
     rules: {
         'class-name': true,
@@ -79,6 +106,6 @@ module.exports = {
         'whitespace': [ true, 'check-branch', 'check-decl', 'check-module', 'check-operator', 'check-separator', 'check-type', 'check-typecast' ]
     },
     rulesDirectory: [
-        'node_modules/codelyzer'
+        resolve()
     ]
 };
