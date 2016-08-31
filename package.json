@@ -28,5 +28,8 @@
     "type": "git",
     "url": "https://github.com/chrisguttandin/tslint-config-holy-grail.git"
   },
+  "scripts": {
+    "test": "grunt lint && grunt test"
+  },
   "version": "0.0.0"
 }
