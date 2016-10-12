@@ -30,6 +30,7 @@ const resolve = () => {
 module.exports = {
     rules: {
         'class-name': true,
+        'comment-format': [ true, 'check-space', 'check-uppercase' ],
         'component-class-suffix': true,
         'component-selector-name': [ true, 'kebab-case' ],
         'component-selector-type': [ true, 'element' ],
@@ -41,6 +42,7 @@ module.exports = {
         'import-destructuring-spacing': true,
         'indent': [ true, 'spaces' ],
         'label-position': true,
+        'max-line-length': [ true, 140 ],
         'member-access': true,
         'member-ordering': [
             true,
@@ -74,11 +76,13 @@ module.exports = {
         'no-input-rename': true,
         'no-output-rename': true,
         'no-shadowed-variable': true,
+        'no-string-literal': false,
         'no-switch-case-fall-through': true,
         'no-trailing-whitespace': true,
         'no-unreachable': true,
         'no-unused-expression': true,
         'no-unused-variable': true,
+        'no-use-before-declare': true,
         'no-var-keyword': true,
         'object-literal-sort-keys': true,
         'one-line': [ true, 'check-catch', 'check-else', 'check-finally', 'check-open-brace', 'check-whitespace' ],
