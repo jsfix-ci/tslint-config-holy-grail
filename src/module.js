@@ -41,6 +41,7 @@ module.exports = {
         'eofline': true,
         'import-destructuring-spacing': true,
         'indent': [ true, 'spaces' ],
+        'invoke-injectable': true,
         'label-position': true,
         'max-line-length': [ true, 140 ],
         'member-access': true,
@@ -62,6 +63,7 @@ module.exports = {
                 'private-instance-method'
             ]
         ],
+        'no-access-missing-member': true,
         'no-arg': true,
         'no-attribute-parameter-decorator': true,
         'no-bitwise': true,
@@ -90,6 +92,7 @@ module.exports = {
         'quotemark': [ true, 'single', 'avoid-escape' ],
         'radix': true,
         'semicolon': [ true, 'always' ],
+        'templates-use-public': true,
         'triple-equals': true,
         'typedef-whitespace': [
             true,
