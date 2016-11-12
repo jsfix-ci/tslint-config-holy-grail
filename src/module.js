@@ -104,7 +104,7 @@ module.exports = {
         'radix': true,
         'semicolon': [ true, 'always' ],
         'templates-use-public': true,
-        'trailing-comma': [ true, { multiline: 'always', singleline: 'never' } ],
+        'trailing-comma': [ true, { multiline: 'never', singleline: 'never' } ],
         'triple-equals': true,
         'typedef-whitespace': [
             true,
