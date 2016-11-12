@@ -29,7 +29,6 @@ const resolve = () => {
 
 module.exports = {
     rules: {
-        'array-type': [ true, 'array-simple' ],
         'arrow-parens': true,
         'class-name': true,
         'comment-format': [ true, 'check-space', 'check-uppercase' ],
@@ -78,7 +77,6 @@ module.exports = {
         'no-duplicate-key': true,
         'no-empty': true,
         'no-eval': true,
-        'no-for-in-array': true,
         'no-forward-ref': true,
         'no-inferrable-types': true,
         'no-input-rename': true,
