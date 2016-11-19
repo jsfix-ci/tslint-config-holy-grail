@@ -1,18 +1,21 @@
 'use strict';
 
-var configuration = require('../../src/module.js'),
-    Linter = require('tslint');
+const configuration = require('../../src/module.js');
+
+const Linter = require('tslint').Linter;
 
 describe('tslint-config-holy-grail', () => {
 
-    var linter;
+    let linter;
 
-    beforeEach(() => linter = new Linter('../fixtures/dummy.ts', '', { configuration }));
+    beforeEach(() => linter = new Linter(configuration));
 
     it('should lint a dummy file', () => {
-        var result = linter.lint();
+        linter.lint('../fixtures/dummy.ts', '');
 
-        expect(result.failureCount).to.equal(0);
+        const failures = linter.getResult().failures;
+
+        expect(failures).to.deep.equal([]);
     });
 
 });
