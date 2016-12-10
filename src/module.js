@@ -14,7 +14,7 @@ const exists = (path) => {
 };
 
 const resolve = () => {
-    var packagePath = path.resolve(__dirname, '..', 'package.json');
+    const packagePath = path.resolve(__dirname, '..', 'package.json');
 
     while (exists(packagePath)) {
         const codelyzerPath = path.resolve(path.dirname(packagePath), 'node_modules', 'codelyzer');
