@@ -74,7 +74,6 @@ module.exports = {
         'no-console': true,
         'no-construct': true,
         'no-debugger': true,
-        'no-duplicate-key': true,
         'no-empty': true,
         'no-eval': true,
         'no-forward-ref': true,
