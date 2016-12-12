@@ -85,7 +85,6 @@ module.exports = {
         'no-trailing-whitespace': true,
         'no-unused-expression': true,
         'no-unused-new': true,
-        'no-unused-variable': true,
         'no-use-before-declare': true,
         'no-var-keyword': true,
         'object-literal-key-quotes': [ true, 'consistent-as-needed' ],
