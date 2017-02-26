@@ -39,7 +39,6 @@ module.exports = {
         'eofline': true,
         'forin': true,
         'import-blacklist': [ true, 'lodash-es', 'rxjs' ],
-        'import-destructuring-spacing': true,
         'import-spacing': true,
         'indent': [ true, 'spaces' ],
         'interface-name': [ true, 'always-prefix' ],
