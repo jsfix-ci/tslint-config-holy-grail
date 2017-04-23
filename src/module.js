@@ -90,7 +90,6 @@ module.exports = {
         'no-switch-case-fall-through': true,
         'no-trailing-whitespace': true,
         'no-unused-expression': true,
-        'no-unused-new': true,
         'no-use-before-declare': true,
         'no-var-keyword': true,
         'object-literal-key-quotes': [ true, 'consistent-as-needed' ],
