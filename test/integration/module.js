@@ -1,5 +1,3 @@
-'use strict';
-
 const configuration = require('../../src/module.js');
 
 const Linter = require('tslint').Linter;
