@@ -24,6 +24,9 @@
     "load-grunt-config": "^0.19.2",
     "mocha": "^3.0.2"
   },
+  "engines": {
+    "node": ">=6.10.3"
+  },
   "homepage": "https://github.com/chrisguttandin/tslint-config-holy-grail",
   "license": "MIT",
   "main": "src/module.js",
