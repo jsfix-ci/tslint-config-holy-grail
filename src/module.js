@@ -27,7 +27,10 @@ const resolve = () => {
 
 module.exports = {
     rules: {
+        'adjacent-overload-signatures': true,
+        'array-type': [ true, 'array' ],
         'arrow-parens': true,
+        'arrow-return-shorthand': true,
         'callable-types': true,
         'class-name': true,
         'comment-format': [ true, 'check-space', 'check-uppercase' ],
@@ -72,6 +75,7 @@ module.exports = {
         'no-console': true,
         'no-construct': true,
         'no-debugger': true,
+        'no-duplicate-super': true,
         'no-empty': true,
         'no-empty-interface': true,
         'no-eval': true,
@@ -79,6 +83,7 @@ module.exports = {
         'no-inferrable-types': true,
         'no-input-rename': true,
         'no-invalid-this': true,
+        'no-misused-new': true,
         'no-output-rename': true,
         'no-reference': true,
         'no-require-imports': true,
@@ -87,6 +92,8 @@ module.exports = {
         'no-string-throw': true,
         'no-switch-case-fall-through': true,
         'no-trailing-whitespace': true,
+        'no-unnecessary-initializer': true,
+        'no-unsafe-finally': true,
         'no-unused-expression': true,
         'no-use-before-declare': true,
         'no-var-keyword': true,
@@ -97,9 +104,13 @@ module.exports = {
         'one-variable-per-declaration': [ true, 'ignore-for-loop' ],
         'ordered-imports': [ true, { 'named-imports-order': 'lowercase-last' } ],
         'prefer-const': true,
+        'prefer-function-over-method': [ true, 'allow-public', 'allow-protected' ],
+        'prefer-method-signature': true,
+        'prefer-template': true,
         'quotemark': [ true, 'single', 'avoid-escape' ],
         'radix': true,
         'semicolon': [ true, 'always' ],
+        'switch-default': true,
         'templates-use-public': true,
         'trailing-comma': [ true, { multiline: 'never', singleline: 'never' } ],
         'triple-equals': true,
@@ -111,17 +122,34 @@ module.exports = {
                 'parameter': 'nospace',
                 'property-declaration': 'nospace',
                 'variable-declaration': 'nospace'
+            }, {
+                'call-signature': 'onespace',
+                'index-signature': 'onespace',
+                'parameter': 'onespace',
+                'property-declaration': 'onespace',
+                'variable-declaration': 'onespace'
             }
         ],
         'typeof-compare': true,
         'unified-signatures': true,
         'use-host-property-decorator': true,
         'use-input-property-decorator': true,
+        'use-isnan': true,
         'use-life-cycle-interface': true,
         'use-output-property-decorator': true,
         'use-pipe-transform-interface': true,
         'variable-name': [ true, 'allow-leading-underscore', 'check-format' ],
-        'whitespace': [ true, 'check-branch', 'check-decl', 'check-module', 'check-operator', 'check-separator', 'check-type', 'check-typecast' ]
+        'whitespace': [
+            true,
+            'check-branch',
+            'check-decl',
+            'check-module',
+            'check-operator',
+            'check-preblock',
+            'check-separator',
+            'check-type',
+            'check-typecast'
+        ]
     },
     rulesDirectory: [
         resolve()
