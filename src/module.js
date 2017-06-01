@@ -48,27 +48,7 @@ module.exports = {
         'label-position': true,
         'max-line-length': [ true, 140 ],
         'member-access': true,
-        'member-ordering': [
-            true,
-            {
-                order:
-                [
-                    'constructor',
-                    'public-static-field',
-                    'protected-static-field',
-                    'private-static-field',
-                    'public-instance-field',
-                    'protected-instance-field',
-                    'private-instance-field',
-                    'public-static-method',
-                    'protected-static-method',
-                    'private-static-method',
-                    'public-instance-method',
-                    'protected-instance-method',
-                    'private-instance-method'
-                ]
-            }
-        ],
+        'member-ordering': [ true, { order: 'instance-sandwich' } ],
         'new-parens': true,
         'newline-before-return': true,
         'no-access-missing-member': true,
