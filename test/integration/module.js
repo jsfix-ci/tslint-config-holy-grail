@@ -1,15 +1,20 @@
-const configuration = require('../../src/module.js');
-
-const Linter = require('tslint').Linter;
+const { Configuration, Linter } = require('tslint');
 
 describe('tslint-config-holy-grail', () => {
 
+    let configuration;
     let linter;
 
-    beforeEach(() => linter = new Linter(configuration));
+    beforeEach(() => {
+        ({ results: configuration } = Configuration.findConfiguration('src/module.js'));
+
+        const program = Linter.createProgram('test/fixtures/tsconfig.json');
+
+        linter = new Linter({ fix: false, formatter: 'json' }, program);
+    });
 
     it('should lint a dummy file', () => {
-        linter.lint('../fixtures/dummy.ts', '');
+        linter.lint('test/fixtures/dummy.ts', '', configuration);
 
         const failures = linter.getResult().failures;
 
