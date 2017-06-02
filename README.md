@@ -1,5 +1,7 @@
 # tslint-config-holy-grail
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/chrisguttandin/tslint-config-holy-grail.svg)](https://greenkeeper.io/)
+
 **This is just my personal tslint configuration.**
 
 [![tests](https://img.shields.io/travis/chrisguttandin/tslint-config-holy-grail/master.svg?style=flat-square)](https://travis-ci.org/chrisguttandin/tslint-config-holy-grail)
