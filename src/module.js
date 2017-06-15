@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
+// eslint-disable-next-line padding-line-between-statements
 const exists = (path) => {
     try {
         fs.statSync(path);
@@ -10,7 +11,6 @@ const exists = (path) => {
         return false;
     }
 };
-
 const resolve = () => {
     let packagePath = path.resolve(__dirname, '..', 'package.json');
 
