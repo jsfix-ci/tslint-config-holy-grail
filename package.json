@@ -6,7 +6,7 @@
   "dependencies": {
     "@angular/compiler": "^4.2.3",
     "@angular/core": "^4.2.3",
-    "codelyzer": "^3.0.0",
+    "codelyzer": "^3.1.1",
     "rxjs": "^5.4.1",
     "tslint": "^5.4.3",
     "typescript": "^2.0.2",
