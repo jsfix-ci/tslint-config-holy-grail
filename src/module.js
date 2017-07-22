@@ -4,7 +4,7 @@ const path = require('path');
 // eslint-disable-next-line padding-line-between-statements
 const exists = (path) => {
     try {
-        fs.statSync(path);
+        fs.statSync(path); // eslint-disable-line no-sync
 
         return true;
     } catch (err) {
