@@ -4,8 +4,8 @@
     "url": "https://github.com/chrisguttandin/tslint-config-holy-grail/issues"
   },
   "dependencies": {
-    "@angular/compiler": "^4.3.3",
-    "@angular/core": "^4.3.3",
+    "@angular/compiler": "^4.3.4",
+    "@angular/core": "^4.3.4",
     "codelyzer": "^3.1.2",
     "rxjs": "^5.4.2",
     "tslint": "^5.6.0",
