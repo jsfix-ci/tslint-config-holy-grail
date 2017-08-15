@@ -95,6 +95,7 @@ module.exports = {
         'quotemark': [ true, 'single', 'avoid-escape' ],
         'radix': true,
         'semicolon': [ true, 'always' ],
+        'space-before-function-paren': true,
         'switch-default': true,
         'templates-use-public': true,
         'trailing-comma': [ true, { multiline: 'never', singleline: 'never' } ],
