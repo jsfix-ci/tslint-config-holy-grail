@@ -31,6 +31,7 @@ module.exports = {
         'array-type': [ true, 'array' ],
         'arrow-parens': true,
         'arrow-return-shorthand': true,
+        'ban-types': [ true, [ 'OpaqueToken', 'Use InjectionToken instead.' ] ],
         'callable-types': true,
         'class-name': true,
         'comment-format': [ true, 'check-space', 'check-uppercase' ],
