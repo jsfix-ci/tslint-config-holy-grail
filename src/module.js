@@ -70,6 +70,7 @@ module.exports = {
         'no-invalid-this': true,
         'no-misused-new': true,
         'no-output-rename': true,
+        'no-parameter-reassignment': true,
         'no-reference': true,
         'no-require-imports': true,
         'no-shadowed-variable': true,
