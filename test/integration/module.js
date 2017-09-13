@@ -1,4 +1,4 @@
-const { Configuration, Linter } = require('tslint');
+const { Configuration, Linter } = require('tslint');
 
 describe('tslint-config-holy-grail', () => {
 
