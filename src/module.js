@@ -73,6 +73,7 @@ module.exports = {
         'no-inferrable-types': true,
         'no-input-rename': true,
         'no-invalid-this': true,
+        'no-irregular-whitespace': true,
         'no-misused-new': true,
         'no-output-rename': true,
         'no-parameter-reassignment': true,
