@@ -44,7 +44,7 @@ module.exports = {
         'directive-class-suffix': true,
         'eofline': true,
         'forin': true,
-        'import-blacklist': [ true, 'lodash-es', 'rxjs', 'rxjs/Rx' ],
+        'import-blacklist': [ true, 'lodash-es', 'rxjs', 'rxjs/add/*', 'rxjs/Rx' ],
         'import-destructuring-spacing': true,
         'import-spacing': true,
         'indent': [ true, 'spaces' ],
