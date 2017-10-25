@@ -47,5 +47,5 @@
     "precommit": "grunt lint",
     "test": "grunt lint && grunt test"
   },
-  "version": "14.0.0"
+  "version": "14.0.1"
 }
