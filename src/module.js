@@ -145,6 +145,7 @@ module.exports = {
         'quotemark': [ true, 'single', 'avoid-escape' ],
         'radix': true,
         'rxjs-no-internal': true,
+        'rxjs-no-unsafe-catch': true,
         'rxjs-no-unsafe-switchmap': true,
         'semicolon': [ true, 'always' ],
         'space-before-function-paren': true,
