@@ -35,7 +35,7 @@
     "load-grunt-config": "^0.19.2",
     "mocha": "^5.2.0",
     "tslint": "^5.10.0",
-    "typescript": "^2.9.1"
+    "typescript": "^2.9.2"
   },
   "engines": {
     "node": ">=8.11.1"
