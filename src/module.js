@@ -141,6 +141,7 @@ module.exports = {
         'prefer-for-of': true,
         'prefer-function-over-method': [ true, 'allow-public', 'allow-protected' ],
         'prefer-method-signature': true,
+        'prefer-object-spread': true,
         'prefer-template': true,
         'quotemark': [ true, 'single', 'avoid-escape' ],
         'radix': true,
