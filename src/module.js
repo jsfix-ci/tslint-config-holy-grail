@@ -166,7 +166,8 @@ module.exports = {
                 'parameter': 'nospace',
                 'property-declaration': 'nospace',
                 'variable-declaration': 'nospace'
-            }, {
+            },
+            {
                 'call-signature': 'onespace',
                 'index-signature': 'onespace',
                 'parameter': 'onespace',
