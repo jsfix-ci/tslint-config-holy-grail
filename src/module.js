@@ -99,6 +99,7 @@ module.exports = {
         'no-output-on-prefix': true,
         'no-output-rename': true,
         'no-parameter-reassignment': true,
+        'no-queries-parameter': true,
         'no-reference': true,
         'no-reference-import': true,
         'no-require-imports': true,
