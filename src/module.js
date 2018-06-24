@@ -141,6 +141,7 @@ module.exports = {
         'prefer-const': true,
         'prefer-for-of': true,
         'prefer-function-over-method': [ true, 'allow-public', 'allow-protected' ],
+        'prefer-inline-decorator': true,
         'prefer-method-signature': true,
         'prefer-object-spread': true,
         'prefer-template': true,
