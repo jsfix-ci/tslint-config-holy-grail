@@ -14,7 +14,7 @@
     "@angular/core": "^6.0.9",
     "codelyzer": "^4.4.2",
     "rxjs": "^6.2.1",
-    "rxjs-tslint-rules": "^4.5.1",
+    "rxjs-tslint-rules": "^4.6.0",
     "zone.js": "^0.8.26"
   },
   "description": "This is just my personal tslint configuration.",
