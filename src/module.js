@@ -1,27 +1,27 @@
-const fs = require('fs');
-const path = require('path');
+const { statSync } = require('fs');
+const { dirname, resolve } = require('path');
 
 // eslint-disable-next-line padding-line-between-statements
 const exists = (path) => {
     try {
-        fs.statSync(path); // eslint-disable-line no-sync
+        statSync(path);
 
         return true;
     } catch (err) {
         return false;
     }
 };
-const resolve = () => {
-    let packagePath = path.resolve(__dirname, '..', 'package.json');
+const resolveCodelyzerRulesDirectory = () => {
+    let packagePath = resolve(__dirname, '..', 'package.json');
 
     while (exists(packagePath)) {
-        const codelyzerPath = path.resolve(path.dirname(packagePath), 'node_modules', 'codelyzer');
+        const codelyzerPath = resolve(dirname(packagePath), 'node_modules', 'codelyzer');
 
         if (exists(codelyzerPath)) {
             return codelyzerPath;
         }
 
-        packagePath = path.resolve(packagePath, '..', '..', '..', 'package.json');
+        packagePath = resolve(packagePath, '..', '..', '..', 'package.json');
     }
 };
 
@@ -202,6 +202,6 @@ module.exports = {
         ]
     },
     rulesDirectory: [
-        resolve()
+        resolveCodelyzerRulesDirectory()
     ]
 };
