@@ -66,7 +66,7 @@ module.exports = {
         'max-classes-per-file': [ true, 2 ],
         'max-line-length': [ true, 140 ],
         'member-access': true,
-        'member-ordering': [ true, { order: 'instance-sandwich' } ],
+        'member-ordering': [ true, { alphabetize: true, order: 'instance-sandwich' } ],
         'new-parens': true,
         'newline-before-return': true,
         'newline-per-chained-call': true,
