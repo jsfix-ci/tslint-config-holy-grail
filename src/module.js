@@ -63,6 +63,7 @@ module.exports = {
         'interface-name': [ true, 'always-prefix' ],
         'interface-over-type-literal': true,
         'label-position': true,
+        'linebreak-style': [ true, 'LF' ],
         'max-classes-per-file': [ true, 2 ],
         'max-line-length': [ true, 140 ],
         'member-access': true,
