@@ -101,6 +101,7 @@ module.exports = {
         'no-output-rename': true,
         'no-parameter-reassignment': true,
         'no-queries-parameter': true,
+        'no-redundant-jsdoc': true,
         'no-reference': true,
         'no-reference-import': true,
         'no-require-imports': true,
