@@ -122,6 +122,7 @@ module.exports = {
             'lodash-es',
             'regenerator-runtime/runtime',
             'rxjs/operators',
+            'rxjs-etc/operators',
             'zone.js/dist'
         ],
         'no-switch-case-fall-through': true,
