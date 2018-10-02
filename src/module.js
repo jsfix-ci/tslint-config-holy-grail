@@ -157,6 +157,7 @@ module.exports = {
         'rxjs-no-unsafe-first': true,
         'rxjs-no-unsafe-switchmap': true,
         'rxjs-no-unsafe-takeuntil': true,
+        'rxjs-prefer-observer': true,
         'rxjs-throw-error': true,
         'semicolon': [ true, 'always' ],
         'space-before-function-paren': true,
