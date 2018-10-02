@@ -50,6 +50,7 @@ module.exports = {
         'directive-class-suffix': true,
         'encoding': true,
         'eofline': true,
+        'file-name-casing': [ true, 'kebab-case' ],
         'forin': true,
         'import-blacklist': [
             true,
