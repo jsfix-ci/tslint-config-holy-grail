@@ -119,6 +119,7 @@ module.exports = {
             '@angular/platform-browser-dynamic/testing',
             '@angular/router/testing',
             '@ngrx/effects/testing',
+            '@nrwl/nx/testing',
             'angulartics2/ga',
             'lodash-es',
             'regenerator-runtime/runtime',
