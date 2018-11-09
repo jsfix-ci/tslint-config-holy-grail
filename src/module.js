@@ -153,6 +153,7 @@ module.exports = {
         'quotemark': [ true, 'single', 'avoid-escape' ],
         'radix': true,
         'rxjs-no-internal': true,
+        'rxjs-no-nested-subscribe': true,
         'rxjs-no-unbound-methods': true,
         'rxjs-no-unsafe-catch': true,
         'rxjs-no-unsafe-first': true,
