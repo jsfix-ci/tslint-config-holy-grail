@@ -154,6 +154,7 @@ module.exports = {
         'radix': true,
         'rxjs-no-internal': true,
         'rxjs-no-nested-subscribe': true,
+        'rxjs-no-subclass': true,
         'rxjs-no-unbound-methods': true,
         'rxjs-no-unsafe-catch': true,
         'rxjs-no-unsafe-first': true,
