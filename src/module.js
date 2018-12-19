@@ -194,6 +194,7 @@ module.exports = {
             }
         ],
         'unified-signatures': true,
+        'unnecessary-constructor': true,
         'use-host-property-decorator': true,
         'use-input-property-decorator': true,
         'use-isnan': true,
