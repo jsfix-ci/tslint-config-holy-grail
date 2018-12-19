@@ -205,6 +205,7 @@ module.exports = {
             'check-decl',
             'check-module',
             'check-operator',
+            'check-postbrace',
             'check-preblock',
             'check-separator',
             'check-type',
