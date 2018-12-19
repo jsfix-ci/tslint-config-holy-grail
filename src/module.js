@@ -37,6 +37,7 @@ module.exports = {
         'arrow-return-shorthand': true,
         'await-promise': true,
         'ban-comma-operator': true,
+        'ban-ts-ignore': true,
         'ban-types': [ true, [ 'OpaqueToken', 'Use InjectionToken instead.' ] ],
         'banana-in-box': true,
         'callable-types': true,
