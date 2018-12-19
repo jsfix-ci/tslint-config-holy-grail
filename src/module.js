@@ -61,6 +61,7 @@ module.exports = {
         ],
         'import-destructuring-spacing': true,
         'import-spacing': true,
+        'increment-decrement': true,
         'indent': [ true, 'spaces' ],
         'interface-name': [ true, 'always-prefix' ],
         'interface-over-type-literal': true,
