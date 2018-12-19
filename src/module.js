@@ -172,6 +172,7 @@ module.exports = {
         'templates-no-negated-async': true,
         'trailing-comma': [ true, { multiline: 'never', singleline: 'never' } ],
         'triple-equals': true,
+        'type-literal-delimiter': true,
         'typedef': [ true, 'call-signature' ],
         'typedef-whitespace': [
             true,
