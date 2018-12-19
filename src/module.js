@@ -210,6 +210,7 @@ module.exports = {
             'check-rest-spread',
             'check-separator',
             'check-type',
+            'check-type-operator',
             'check-typecast'
         ]
     },
