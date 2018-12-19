@@ -207,6 +207,7 @@ module.exports = {
             'check-operator',
             'check-postbrace',
             'check-preblock',
+            'check-rest-spread',
             'check-separator',
             'check-type',
             'check-typecast'
