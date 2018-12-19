@@ -165,6 +165,7 @@ module.exports = {
         'rxjs-throw-error': true,
         'semicolon': [ true, 'always' ],
         'space-before-function-paren': true,
+        'strict-boolean-expressions': true,
         'switch-default': true,
         'template-conditional-complexity': true,
         'template-cyclomatic-complexity': true,
