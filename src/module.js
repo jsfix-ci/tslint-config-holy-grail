@@ -1,30 +1,3 @@
-const { statSync } = require('fs');
-const { dirname, resolve } = require('path');
-
-// eslint-disable-next-line padding-line-between-statements
-const exists = (path) => {
-    try {
-        statSync(path);
-
-        return true;
-    } catch (err) {
-        return false;
-    }
-};
-const resolveCodelyzerRulesDirectory = () => {
-    let packagePath = resolve(__dirname, '..', 'package.json');
-
-    while (exists(packagePath)) {
-        const codelyzerPath = resolve(dirname(packagePath), 'node_modules', 'codelyzer');
-
-        if (exists(codelyzerPath)) {
-            return codelyzerPath;
-        }
-
-        packagePath = resolve(packagePath, '..', '..', '..', 'package.json');
-    }
-};
-
 module.exports = {
     extends: [
         'rxjs-tslint-rules'
@@ -221,6 +194,6 @@ module.exports = {
         ]
     },
     rulesDirectory: [
-        resolveCodelyzerRulesDirectory()
+        'codelyzer'
     ]
 };
