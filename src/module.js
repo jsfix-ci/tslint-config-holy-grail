@@ -72,6 +72,7 @@ module.exports = {
         'no-irregular-whitespace': true,
         'no-misused-new': true,
         'no-namespace': true,
+        'no-non-null-assertion': true,
         'no-output-named-after-standard-event': true,
         'no-output-on-prefix': true,
         'no-output-rename': true,
