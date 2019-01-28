@@ -130,6 +130,7 @@ module.exports = {
         'radix': true,
         'rxjs-no-compat': true,
         'rxjs-no-ignored-notifier': true,
+        'rxjs-no-ignored-replay-buffer': true,
         'rxjs-no-internal': true,
         'rxjs-no-nested-subscribe': true,
         'rxjs-no-subclass': true,
