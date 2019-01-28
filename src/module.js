@@ -85,7 +85,7 @@ module.exports = {
         'no-return-await': true,
         'no-shadowed-variable': true,
         'no-sparse-arrays': true,
-        'no-string-literal': false,
+        'no-string-literal': true,
         'no-string-throw': true,
         'no-submodule-imports': [
             true,
