@@ -128,6 +128,7 @@ module.exports = {
         'prefer-template': true,
         'quotemark': [ true, 'single', 'avoid-escape' ],
         'radix': true,
+        'rxjs-no-compat': true,
         'rxjs-no-internal': true,
         'rxjs-no-nested-subscribe': true,
         'rxjs-no-subclass': true,
