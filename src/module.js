@@ -129,6 +129,7 @@ module.exports = {
         'quotemark': [ true, 'single', 'avoid-escape' ],
         'radix': true,
         'rxjs-no-compat': true,
+        'rxjs-no-exposed-subjects': true,
         'rxjs-no-ignored-notifier': true,
         'rxjs-no-ignored-replay-buffer': true,
         'rxjs-no-internal': true,
