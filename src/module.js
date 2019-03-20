@@ -104,6 +104,7 @@ module.exports = {
             'zone.js/dist'
         ],
         'no-switch-case-fall-through': true,
+        'no-tautology-expression': true,
         'no-this-assignment': [ true, { 'allow-destructuring': true } ],
         'no-trailing-whitespace': true,
         'no-unnecessary-initializer': true,
