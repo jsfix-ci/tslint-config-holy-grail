@@ -177,6 +177,7 @@ module.exports = {
         'unified-signatures': true,
         'unnecessary-bind': true,
         'unnecessary-constructor': true,
+        'unnecessary-else': true,
         'use-host-property-decorator': true,
         'use-input-property-decorator': true,
         'use-isnan': true,
