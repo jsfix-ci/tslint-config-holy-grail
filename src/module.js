@@ -144,6 +144,7 @@ module.exports = {
         'rxjs-no-unsafe-takeuntil': true,
         'rxjs-prefer-async-pipe': true,
         'rxjs-prefer-observer': true,
+        'rxjs-suffix-subjects': true,
         'rxjs-throw-error': true,
         'semicolon': [ true, 'always' ],
         'space-before-function-paren': true,
