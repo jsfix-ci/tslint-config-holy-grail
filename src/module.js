@@ -131,6 +131,7 @@ module.exports = {
         'rxjs-no-compat': true,
         'rxjs-no-exposed-subjects': true,
         'rxjs-no-ignored-notifier': true,
+        'rxjs-no-ignored-observable': true,
         'rxjs-no-ignored-replay-buffer': true,
         'rxjs-no-internal': true,
         'rxjs-no-nested-subscribe': true,
