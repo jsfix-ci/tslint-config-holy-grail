@@ -135,6 +135,7 @@ module.exports = {
         'rxjs-no-ignored-replay-buffer': true,
         'rxjs-no-internal': true,
         'rxjs-no-nested-subscribe': true,
+        'rxjs-no-sharereplay': [ true, { allowConfig: true } ],
         'rxjs-no-subclass': true,
         'rxjs-no-unbound-methods': true,
         'rxjs-no-unsafe-catch': true,
