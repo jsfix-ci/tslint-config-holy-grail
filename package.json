@@ -12,7 +12,7 @@
     "@angular/compiler": "^7.2.15",
     "@angular/core": "^7.2.15",
     "codelyzer": "^4.5.0",
-    "rxjs": "^6.5.1",
+    "rxjs": "^6.5.2",
     "rxjs-tslint-rules": "^4.23.1",
     "zone.js": "^0.8.29"
   },
