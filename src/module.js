@@ -183,7 +183,7 @@ module.exports = {
         'use-host-property-decorator': true,
         'use-input-property-decorator': true,
         'use-isnan': true,
-        'use-life-cycle-interface': true,
+        'use-lifecycle-interface': true,
         'use-output-property-decorator': true,
         'use-pipe-decorator': true,
         'use-pipe-transform-interface': true,
