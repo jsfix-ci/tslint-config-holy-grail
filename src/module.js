@@ -47,7 +47,7 @@ module.exports = {
         'newline-before-return': true,
         'newline-per-chained-call': true,
         'no-arg': true,
-        'no-attribute-parameter-decorator': true,
+        'no-attribute-decorator': true,
         'no-bitwise': true,
         'no-conditional-assignment': true,
         'no-conflicting-lifecycle': true,
