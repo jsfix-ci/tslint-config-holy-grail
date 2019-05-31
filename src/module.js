@@ -183,11 +183,11 @@ module.exports = {
         'unnecessary-bind': true,
         'unnecessary-constructor': true,
         'unnecessary-else': true,
+        'use-component-view-encapsulation': true,
         'use-isnan': true,
         'use-lifecycle-interface': true,
         'use-pipe-decorator': true,
         'use-pipe-transform-interface': true,
-        'use-view-encapsulation': true,
         'variable-name': [ true, 'allow-leading-underscore', 'check-format' ],
         'whitespace': [
             true,
