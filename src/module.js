@@ -70,6 +70,7 @@ module.exports = {
         'no-internal-module': true,
         'no-invalid-this': true,
         'no-irregular-whitespace': true,
+        'no-lifecycle-call': true,
         'no-misused-new': true,
         'no-namespace': true,
         'no-non-null-assertion': true,
