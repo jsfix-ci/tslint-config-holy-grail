@@ -157,6 +157,7 @@ module.exports = {
         'template-banana-in-box': true,
         'template-conditional-complexity': true,
         'template-cyclomatic-complexity': true,
+        'template-no-call-expression': true,
         'templates-no-negated-async': true,
         'trailing-comma': [ true, { multiline: 'never', singleline: 'never' } ],
         'triple-equals': true,
