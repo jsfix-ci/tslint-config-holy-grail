@@ -110,7 +110,6 @@ module.exports = {
         'no-unnecessary-initializer': true,
         'no-unsafe-finally': true,
         'no-unused-expression': true,
-        'no-use-before-declare': true,
         'no-var-keyword': true,
         'no-var-requires': true,
         'object-literal-key-quotes': [ true, 'consistent-as-needed' ],
