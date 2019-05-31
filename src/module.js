@@ -81,7 +81,7 @@ module.exports = {
         'no-output-rename': true,
         'no-outputs-metadata-property': true,
         'no-parameter-reassignment': true,
-        'no-queries-parameter': true,
+        'no-queries-metadata-property': true,
         'no-redundant-jsdoc': true,
         'no-reference': true,
         'no-reference-import': true,
