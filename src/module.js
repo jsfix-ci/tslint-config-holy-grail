@@ -17,7 +17,7 @@ module.exports = {
         'class-name': true,
         'comment-format': [ true, 'check-space', 'check-uppercase' ],
         'component-class-suffix': true,
-        'contextual-life-cycle': true,
+        'contextual-lifecycle': true,
         'curly': true,
         'decorator-not-allowed': true,
         'deprecation': true,
