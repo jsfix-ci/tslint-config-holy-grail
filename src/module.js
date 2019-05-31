@@ -158,7 +158,7 @@ module.exports = {
         'template-conditional-complexity': true,
         'template-cyclomatic-complexity': true,
         'template-no-call-expression': true,
-        'templates-no-negated-async': true,
+        'template-no-negated-async': true,
         'trailing-comma': [ true, { multiline: 'never', singleline: 'never' } ],
         'triple-equals': true,
         'type-literal-delimiter': true,
