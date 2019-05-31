@@ -75,6 +75,7 @@ module.exports = {
         'no-misused-new': true,
         'no-namespace': true,
         'no-non-null-assertion': true,
+        'no-null-undefined-union': true,
         'no-output-native': true,
         'no-output-on-prefix': true,
         'no-output-rename': true,
