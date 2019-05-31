@@ -131,6 +131,7 @@ module.exports = {
         'prefer-template': true,
         'quotemark': [ true, 'single', 'avoid-escape' ],
         'radix': true,
+        'relative-url-prefix': true,
         'rxjs-no-compat': true,
         'rxjs-no-exposed-subjects': true,
         'rxjs-no-ignored-notifier': true,
