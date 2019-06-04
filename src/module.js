@@ -188,6 +188,7 @@ module.exports = {
         'unnecessary-constructor': true,
         'unnecessary-else': true,
         'use-component-view-encapsulation': true,
+        'use-injectable-provided-in': true,
         'use-isnan': true,
         'use-lifecycle-interface': true,
         'use-pipe-decorator': true,
