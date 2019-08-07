@@ -61,5 +61,5 @@
   "scripts": {
     "test": "grunt lint && grunt test"
   },
-  "version": "44.0.8"
+  "version": "44.0.9"
 }
