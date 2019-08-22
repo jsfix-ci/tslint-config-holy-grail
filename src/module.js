@@ -36,6 +36,7 @@ module.exports = {
         'indent': [ true, 'spaces' ],
         'interface-name': [ true, 'always-prefix' ],
         'interface-over-type-literal': true,
+        'invalid-void': true,
         'label-position': true,
         'linebreak-style': [ true, 'LF' ],
         'max-classes-per-file': [ true, 2 ],
