@@ -62,6 +62,7 @@ module.exports = {
         'no-empty': true,
         'no-empty-interface': true,
         'no-eval': true,
+        'no-for-in': true,
         'no-forward-ref': true,
         'no-host-metadata-property': true,
         'no-implicit-dependencies': true,
