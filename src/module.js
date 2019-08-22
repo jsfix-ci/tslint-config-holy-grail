@@ -24,7 +24,6 @@ module.exports = {
         'encoding': true,
         'eofline': true,
         'file-name-casing': [ true, 'kebab-case' ],
-        'forin': true,
         'import-blacklist': [
             true,
             '@angular/http',
