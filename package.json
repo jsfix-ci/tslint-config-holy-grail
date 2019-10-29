@@ -11,7 +11,7 @@
   "dependencies": {
     "@angular/compiler": "^8.2.12",
     "@angular/core": "^8.2.12",
-    "codelyzer": "^5.1.2",
+    "codelyzer": "^5.2.0",
     "rxjs": "^6.5.3",
     "rxjs-tslint-rules": "^4.25.0",
     "zone.js": "^0.10.2"
