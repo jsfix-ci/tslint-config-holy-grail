@@ -163,6 +163,7 @@ module.exports = {
         'template-accessibility-label-for': true,
         'template-accessibility-tabindex-no-positive': true,
         'template-accessibility-table-scope': true,
+        'template-accessibility-valid-aria': true,
         'template-banana-in-box': true,
         'template-conditional-complexity': true,
         'template-cyclomatic-complexity': true,
