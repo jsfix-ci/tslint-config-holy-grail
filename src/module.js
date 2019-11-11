@@ -161,6 +161,7 @@ module.exports = {
         'template-accessibility-alt-text': true,
         'template-accessibility-elements-content': true,
         'template-accessibility-label-for': true,
+        'template-accessibility-tabindex-no-positive': true,
         'template-banana-in-box': true,
         'template-conditional-complexity': true,
         'template-cyclomatic-complexity': true,
