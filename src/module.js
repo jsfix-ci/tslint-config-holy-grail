@@ -159,6 +159,7 @@ module.exports = {
         'strict-boolean-expressions': true,
         'switch-default': true,
         'template-accessibility-alt-text': true,
+        'template-accessibility-elements-content': true,
         'template-banana-in-box': true,
         'template-conditional-complexity': true,
         'template-cyclomatic-complexity': true,
