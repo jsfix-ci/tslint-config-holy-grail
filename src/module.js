@@ -165,6 +165,7 @@ module.exports = {
         'template-accessibility-table-scope': true,
         'template-accessibility-valid-aria': true,
         'template-banana-in-box': true,
+        'template-click-events-have-key-events': true,
         'template-conditional-complexity': true,
         'template-cyclomatic-complexity': true,
         'template-no-any': true,
