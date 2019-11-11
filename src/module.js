@@ -170,6 +170,7 @@ module.exports = {
         'template-cyclomatic-complexity': true,
         'template-mouse-events-have-key-events': true,
         'template-no-any': true,
+        'template-no-autofocus': true,
         'template-no-call-expression': true,
         'template-no-negated-async': true,
         'trailing-comma': [ true, { multiline: 'never', singleline: 'never' } ],
