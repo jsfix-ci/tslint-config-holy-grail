@@ -158,6 +158,7 @@ module.exports = {
         'static-this': true,
         'strict-boolean-expressions': true,
         'switch-default': true,
+        'template-accessibility-alt-text': true,
         'template-banana-in-box': true,
         'template-conditional-complexity': true,
         'template-cyclomatic-complexity': true,
