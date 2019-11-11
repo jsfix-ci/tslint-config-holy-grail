@@ -172,6 +172,7 @@ module.exports = {
         'template-no-any': true,
         'template-no-autofocus': true,
         'template-no-call-expression': true,
+        'template-no-distracting-elements': true,
         'template-no-negated-async': true,
         'trailing-comma': [ true, { multiline: 'never', singleline: 'never' } ],
         'triple-equals': true,
