@@ -168,6 +168,7 @@ module.exports = {
         'template-click-events-have-key-events': true,
         'template-conditional-complexity': true,
         'template-cyclomatic-complexity': true,
+        'template-mouse-events-have-key-events': true,
         'template-no-any': true,
         'template-no-call-expression': true,
         'template-no-negated-async': true,
