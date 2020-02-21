@@ -11,7 +11,13 @@ module.exports = {
         'await-promise': true,
         'ban-comma-operator': true,
         'ban-ts-ignore': true,
-        'ban-types': [ true, [ 'OpaqueToken', 'Use InjectionToken instead.' ] ],
+        'ban-types': [
+            true,
+            [ 'Boolean', 'Use boolean instead.' ],
+            [ 'Number', 'Use number instead.' ],
+            [ 'OpaqueToken', 'Use InjectionToken instead.' ],
+            [ 'String', 'Use string instead.' ]
+        ],
         'callable-types': true,
         'class-name': true,
         'comment-format': [ true, 'check-space', 'check-uppercase' ],
