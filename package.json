@@ -9,8 +9,8 @@
     }
   },
   "dependencies": {
-    "@angular/compiler": "^9.0.7",
-    "@angular/core": "^9.0.7",
+    "@angular/compiler": "^9.1.0",
+    "@angular/core": "^9.1.0",
     "codelyzer": "^5.2.1",
     "rxjs": "^6.5.4",
     "rxjs-tslint-rules": "^4.29.2",
