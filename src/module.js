@@ -158,7 +158,6 @@ module.exports = {
         'rxjs-no-unsafe-subject-next': true,
         'rxjs-no-unsafe-switchmap': true,
         'rxjs-no-unsafe-takeuntil': true,
-        'rxjs-no-unsafe-takewhile': true,
         'rxjs-prefer-observer': true,
         'rxjs-suffix-subjects': true,
         'rxjs-throw-error': true,
