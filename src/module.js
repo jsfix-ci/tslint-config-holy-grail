@@ -155,6 +155,7 @@ module.exports = {
         'rxjs-no-unbound-methods': true,
         'rxjs-no-unsafe-catch': true,
         'rxjs-no-unsafe-first': true,
+        'rxjs-no-unsafe-subject-next': true,
         'rxjs-no-unsafe-switchmap': true,
         'rxjs-no-unsafe-takeuntil': true,
         'rxjs-prefer-observer': true,
