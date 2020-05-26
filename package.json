@@ -31,7 +31,7 @@
     "grunt-sh": "^0.2.0",
     "husky": "^4.2.5",
     "load-grunt-config": "^3.0.1",
-    "mocha": "^7.1.2",
+    "mocha": "^7.2.0",
     "tslint": "^6.1.2",
     "typescript": "^3.9.3"
   },
