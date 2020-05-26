@@ -146,6 +146,7 @@ module.exports = {
         'rxjs-no-ignored-notifier': true,
         'rxjs-no-ignored-observable': true,
         'rxjs-no-ignored-replay-buffer': true,
+        'rxjs-no-ignored-takewhile-value': true,
         'rxjs-no-index': true,
         'rxjs-no-internal': true,
         'rxjs-no-nested-subscribe': true,
