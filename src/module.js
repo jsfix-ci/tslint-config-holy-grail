@@ -152,6 +152,7 @@ module.exports = {
         'rxjs-no-nested-subscribe': true,
         'rxjs-no-sharereplay': [ true, { allowConfig: true } ],
         'rxjs-no-subclass': true,
+        'rxjs-no-subject-unsubscribe': true,
         'rxjs-no-topromise': true,
         'rxjs-no-unbound-methods': true,
         'rxjs-no-unsafe-catch': true,
