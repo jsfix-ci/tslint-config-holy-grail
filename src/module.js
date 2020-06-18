@@ -130,7 +130,6 @@ module.exports = {
         'prefer-method-signature': true,
         'prefer-object-spread': true,
         'prefer-template': true,
-        'quotemark': [ true, 'single', 'avoid-escape' ],
         'radix': true,
         'relative-url-prefix': true,
         'rxjs-angular-prefer-async-pipe': true,
