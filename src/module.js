@@ -4,7 +4,6 @@ module.exports = {
     ],
     rules: {
         'adjacent-overload-signatures': true,
-        'angular-whitespace': [ true, 'check-interpolation', 'check-semicolon' ],
         'array-type': [ true, 'array' ],
         'arrow-return-shorthand': true,
         'await-promise': true,
