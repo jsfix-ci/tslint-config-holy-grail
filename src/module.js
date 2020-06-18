@@ -28,7 +28,6 @@ module.exports = {
         'deprecation': true,
         'directive-class-suffix': true,
         'encoding': true,
-        'eofline': true,
         'file-name-casing': [ true, 'kebab-case' ],
         'import-blacklist': [
             true,
