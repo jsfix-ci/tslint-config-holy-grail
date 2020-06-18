@@ -44,7 +44,6 @@ module.exports = {
         'member-access': true,
         'member-ordering': [ true, { alphabetize: true, order: 'instance-sandwich' } ],
         'newline-before-return': true,
-        'newline-per-chained-call': true,
         'no-arg': true,
         'no-attribute-decorator': true,
         'no-bitwise': true,
