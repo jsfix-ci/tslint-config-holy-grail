@@ -69,7 +69,6 @@ module.exports = {
         'no-inputs-metadata-property': true,
         'no-internal-module': true,
         'no-invalid-this': true,
-        'no-irregular-whitespace': true,
         'no-lifecycle-call': true,
         'no-misused-new': true,
         'no-namespace': true,
