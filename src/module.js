@@ -154,7 +154,6 @@ module.exports = {
         'rxjs-suffix-subjects': true,
         'rxjs-throw-error': true,
         'semicolon': [ true, 'always' ],
-        'space-before-function-paren': true,
         'static-this': true,
         'strict-boolean-expressions': true,
         'switch-default': true,
