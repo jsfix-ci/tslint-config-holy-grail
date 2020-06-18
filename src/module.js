@@ -42,7 +42,6 @@ module.exports = {
         'invalid-void': [ true, { 'allow-generics': [ 'EventEmitter', 'NextObserver', 'Observable', 'Observer', 'Promise', 'ReplaySubject', 'Subject' ] } ],
         'label-position': true,
         'max-classes-per-file': [ true, 2 ],
-        'max-line-length': [ true, 140 ],
         'member-access': true,
         'member-ordering': [ true, { alphabetize: true, order: 'instance-sandwich' } ],
         'newline-before-return': true,
