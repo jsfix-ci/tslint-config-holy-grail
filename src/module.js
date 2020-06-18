@@ -36,7 +36,6 @@ module.exports = {
         ],
         'import-destructuring-spacing': true,
         'increment-decrement': true,
-        'indent': [ true, 'spaces' ],
         'interface-name': [ true, 'always-prefix' ],
         'interface-over-type-literal': true,
         'invalid-void': [ true, { 'allow-generics': [ 'EventEmitter', 'NextObserver', 'Observable', 'Observer', 'Promise', 'ReplaySubject', 'Subject' ] } ],
