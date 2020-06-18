@@ -184,7 +184,6 @@ module.exports = {
         'template-no-call-expression': true,
         'template-no-distracting-elements': true,
         'template-no-negated-async': true,
-        'trailing-comma': [ true, { multiline: 'never', singleline: 'never' } ],
         'triple-equals': true,
         'type-literal-delimiter': true,
         'typedef': [ true, 'call-signature' ],
