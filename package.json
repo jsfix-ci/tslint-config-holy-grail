@@ -32,6 +32,7 @@
     "husky": "^4.2.5",
     "load-grunt-config": "^3.0.1",
     "mocha": "^8.0.1",
+    "prettier": "^2.0.5",
     "tslint": "^6.1.2",
     "typescript": "^3.9.5"
   },
