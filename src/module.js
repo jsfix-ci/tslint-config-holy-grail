@@ -6,7 +6,6 @@ module.exports = {
         'adjacent-overload-signatures': true,
         'angular-whitespace': [ true, 'check-interpolation', 'check-semicolon' ],
         'array-type': [ true, 'array' ],
-        'arrow-parens': true,
         'arrow-return-shorthand': true,
         'await-promise': true,
         'ban-comma-operator': true,
