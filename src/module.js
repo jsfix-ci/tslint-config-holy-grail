@@ -1,24 +1,22 @@
 module.exports = {
-    extends: [
-        'rxjs-tslint-rules'
-    ],
+    extends: ['rxjs-tslint-rules'],
     rules: {
         'adjacent-overload-signatures': true,
-        'array-type': [ true, 'array' ],
+        'array-type': [true, 'array'],
         'arrow-return-shorthand': true,
         'await-promise': true,
         'ban-comma-operator': true,
         'ban-ts-ignore': true,
         'ban-types': [
             true,
-            [ 'Boolean', 'Use boolean instead.' ],
-            [ 'Number', 'Use number instead.' ],
-            [ 'OpaqueToken', 'Use InjectionToken instead.' ],
-            [ 'String', 'Use string instead.' ]
+            ['Boolean', 'Use boolean instead.'],
+            ['Number', 'Use number instead.'],
+            ['OpaqueToken', 'Use InjectionToken instead.'],
+            ['String', 'Use string instead.']
         ],
         'callable-types': true,
         'class-name': true,
-        'comment-format': [ true, 'check-space', 'check-uppercase' ],
+        'comment-format': [true, 'check-space', 'check-uppercase'],
         'component-class-suffix': true,
         'contextual-decorator': true,
         'contextual-lifecycle': true,
@@ -26,21 +24,19 @@ module.exports = {
         'deprecation': true,
         'directive-class-suffix': true,
         'encoding': true,
-        'file-name-casing': [ true, 'kebab-case' ],
-        'import-blacklist': [
-            true,
-            '@angular/http',
-            'core-js',
-            'lodash-es'
-        ],
+        'file-name-casing': [true, 'kebab-case'],
+        'import-blacklist': [true, '@angular/http', 'core-js', 'lodash-es'],
         'increment-decrement': true,
-        'interface-name': [ true, 'always-prefix' ],
+        'interface-name': [true, 'always-prefix'],
         'interface-over-type-literal': true,
-        'invalid-void': [ true, { 'allow-generics': [ 'EventEmitter', 'NextObserver', 'Observable', 'Observer', 'Promise', 'ReplaySubject', 'Subject' ] } ],
+        'invalid-void': [
+            true,
+            { 'allow-generics': ['EventEmitter', 'NextObserver', 'Observable', 'Observer', 'Promise', 'ReplaySubject', 'Subject'] }
+        ],
         'label-position': true,
-        'max-classes-per-file': [ true, 2 ],
+        'max-classes-per-file': [true, 2],
         'member-access': true,
-        'member-ordering': [ true, { alphabetize: true, order: 'instance-sandwich' } ],
+        'member-ordering': [true, { alphabetize: true, order: 'instance-sandwich' }],
         'newline-before-return': true,
         'no-arg': true,
         'no-attribute-decorator': true,
@@ -105,7 +101,7 @@ module.exports = {
         ],
         'no-switch-case-fall-through': true,
         'no-tautology-expression': true,
-        'no-this-assignment': [ true, { 'allow-destructuring': true } ],
+        'no-this-assignment': [true, { 'allow-destructuring': true }],
         'no-trailing-whitespace': true,
         'no-unnecessary-initializer': true,
         'no-unsafe-finally': true,
@@ -114,11 +110,11 @@ module.exports = {
         'no-var-requires': true,
         'object-literal-shorthand': true,
         'object-literal-sort-keys': true,
-        'one-variable-per-declaration': [ true, 'ignore-for-loop' ],
-        'ordered-imports': [ true, { 'named-imports-order': 'lowercase-last' } ],
+        'one-variable-per-declaration': [true, 'ignore-for-loop'],
+        'ordered-imports': [true, { 'named-imports-order': 'lowercase-last' }],
         'prefer-const': true,
         'prefer-for-of': true,
-        'prefer-function-over-method': [ true, 'allow-public', 'allow-protected' ],
+        'prefer-function-over-method': [true, 'allow-public', 'allow-protected'],
         'prefer-inline-decorator': true,
         'prefer-method-signature': true,
         'prefer-object-spread': true,
@@ -135,7 +131,7 @@ module.exports = {
         'rxjs-no-index': true,
         'rxjs-no-internal': true,
         'rxjs-no-nested-subscribe': true,
-        'rxjs-no-sharereplay': [ true, { allowConfig: true } ],
+        'rxjs-no-sharereplay': [true, { allowConfig: true }],
         'rxjs-no-subclass': true,
         'rxjs-no-subject-unsubscribe': true,
         'rxjs-no-topromise': true,
@@ -168,7 +164,7 @@ module.exports = {
         'template-no-distracting-elements': true,
         'template-no-negated-async': true,
         'triple-equals': true,
-        'typedef': [ true, 'call-signature' ],
+        'typedef': [true, 'call-signature'],
         'unified-signatures': true,
         'unnecessary-bind': true,
         'unnecessary-constructor': true,
@@ -179,9 +175,7 @@ module.exports = {
         'use-lifecycle-interface': true,
         'use-pipe-decorator': true,
         'use-pipe-transform-interface': true,
-        'variable-name': [ true, 'allow-leading-underscore', 'check-format' ]
+        'variable-name': [true, 'allow-leading-underscore', 'check-format']
     },
-    rulesDirectory: [
-        'codelyzer'
-    ]
+    rulesDirectory: ['codelyzer']
 };

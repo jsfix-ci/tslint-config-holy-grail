@@ -1,7 +1,6 @@
 const { Configuration, Linter } = require('tslint');
 
 describe('tslint-config-holy-grail', () => {
-
     let configuration;
     let linter;
 
@@ -20,5 +19,4 @@ describe('tslint-config-holy-grail', () => {
 
         expect(failures).to.deep.equal([]);
     });
-
 });
