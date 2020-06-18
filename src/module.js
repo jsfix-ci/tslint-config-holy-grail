@@ -34,7 +34,6 @@ module.exports = {
             'core-js',
             'lodash-es'
         ],
-        'import-destructuring-spacing': true,
         'increment-decrement': true,
         'interface-name': [ true, 'always-prefix' ],
         'interface-over-type-literal': true,
