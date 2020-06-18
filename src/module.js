@@ -153,7 +153,6 @@ module.exports = {
         'rxjs-prefer-observer': true,
         'rxjs-suffix-subjects': true,
         'rxjs-throw-error': true,
-        'semicolon': [ true, 'always' ],
         'static-this': true,
         'strict-boolean-expressions': true,
         'switch-default': true,
