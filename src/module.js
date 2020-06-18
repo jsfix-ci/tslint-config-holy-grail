@@ -180,7 +180,6 @@ module.exports = {
         'template-no-distracting-elements': true,
         'template-no-negated-async': true,
         'triple-equals': true,
-        'type-literal-delimiter': true,
         'typedef': [ true, 'call-signature' ],
         'unified-signatures': true,
         'unnecessary-bind': true,
