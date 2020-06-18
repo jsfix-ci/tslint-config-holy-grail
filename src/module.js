@@ -125,7 +125,6 @@ module.exports = {
         'object-literal-key-quotes': [ true, 'consistent-as-needed' ],
         'object-literal-shorthand': true,
         'object-literal-sort-keys': true,
-        'one-line': [ true, 'check-catch', 'check-else', 'check-finally', 'check-open-brace', 'check-whitespace' ],
         'one-variable-per-declaration': [ true, 'ignore-for-loop' ],
         'ordered-imports': [ true, { 'named-imports-order': 'lowercase-last' } ],
         'prefer-const': true,
