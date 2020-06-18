@@ -215,21 +215,7 @@ module.exports = {
         'use-lifecycle-interface': true,
         'use-pipe-decorator': true,
         'use-pipe-transform-interface': true,
-        'variable-name': [ true, 'allow-leading-underscore', 'check-format' ],
-        'whitespace': [
-            true,
-            'check-branch',
-            'check-decl',
-            'check-module',
-            'check-operator',
-            'check-postbrace',
-            'check-preblock',
-            'check-rest-spread',
-            'check-separator',
-            'check-type',
-            'check-type-operator',
-            'check-typecast'
-        ]
+        'variable-name': [ true, 'allow-leading-underscore', 'check-format' ]
     },
     rulesDirectory: [
         'codelyzer'
