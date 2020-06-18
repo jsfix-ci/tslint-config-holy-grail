@@ -49,7 +49,6 @@ module.exports = {
         'no-bitwise': true,
         'no-conditional-assignment': true,
         'no-conflicting-lifecycle': true,
-        'no-consecutive-blank-lines': true,
         'no-console': true,
         'no-construct': true,
         'no-debugger': true,
