@@ -116,7 +116,6 @@ module.exports = {
         'no-unused-expression': true,
         'no-var-keyword': true,
         'no-var-requires': true,
-        'object-literal-key-quotes': [ true, 'consistent-as-needed' ],
         'object-literal-shorthand': true,
         'object-literal-sort-keys': true,
         'one-variable-per-declaration': [ true, 'ignore-for-loop' ],
