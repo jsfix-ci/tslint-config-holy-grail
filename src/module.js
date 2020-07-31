@@ -125,6 +125,7 @@ module.exports = {
         'relative-url-prefix': true,
         'rxjs-angular-prefer-async-pipe': true,
         'rxjs-no-compat': true,
+        'rxjs-no-connectable': true,
         'rxjs-no-exposed-subjects': true,
         'rxjs-no-ignored-notifier': true,
         'rxjs-no-ignored-observable': true,
