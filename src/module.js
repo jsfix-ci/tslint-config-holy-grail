@@ -87,6 +87,7 @@ module.exports = {
             true,
             '@angular/common/http',
             '@angular/core/testing',
+            '@angular/material',
             '@angular/platform-browser/animations',
             '@angular/platform-browser-dynamic/testing',
             '@angular/router/testing',
