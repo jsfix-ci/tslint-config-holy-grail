@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ['rxjs-tslint-rules'],
+    extends: ['rxjs-tslint-rules', 'tslint-etc'],
     rules: {
         'adjacent-overload-signatures': true,
         'array-type': [true, 'array'],
@@ -39,6 +39,7 @@ module.exports = {
         'member-ordering': [true, { alphabetize: true, order: 'instance-sandwich' }],
         'newline-before-return': true,
         'no-arg': true,
+        'no-assign-mutated-array': true,
         'no-attribute-decorator': true,
         'no-bitwise': true,
         'no-conditional-assignment': true,
