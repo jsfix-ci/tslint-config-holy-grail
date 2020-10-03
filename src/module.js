@@ -95,6 +95,7 @@ module.exports = {
             '@ngrx/effects/testing',
             '@nrwl/nx/testing',
             'angulartics2/ga',
+            'angulartics2/gst',
             'lodash-es',
             'regenerator-runtime/runtime',
             'rxjs/operators',
