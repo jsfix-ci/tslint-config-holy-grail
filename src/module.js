@@ -101,7 +101,7 @@ module.exports = {
             'rxjs/operators',
             'rxjs-etc/operators',
             'zone.js/dist',
-            '~common/*'
+            '~common'
         ],
         'no-switch-case-fall-through': true,
         'no-tautology-expression': true,
