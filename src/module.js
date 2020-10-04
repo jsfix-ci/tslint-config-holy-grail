@@ -57,7 +57,7 @@ module.exports = {
         'no-for-in': true,
         'no-forward-ref': true,
         'no-host-metadata-property': true,
-        'no-implicit-dependencies': true,
+        'no-implicit-dependencies': [true, ['~common']],
         'no-inferrable-types': true,
         'no-input-rename': true,
         'no-inputs-metadata-property': true,
