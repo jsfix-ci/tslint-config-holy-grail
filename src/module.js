@@ -100,7 +100,8 @@ module.exports = {
             'regenerator-runtime/runtime',
             'rxjs/operators',
             'rxjs-etc/operators',
-            'zone.js/dist'
+            'zone.js/dist',
+            '~common/*'
         ],
         'no-switch-case-fall-through': true,
         'no-tautology-expression': true,
