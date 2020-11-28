@@ -15,7 +15,7 @@
         "rxjs": "^6.6.3",
         "rxjs-tslint-rules": "^4.34.7",
         "tslib": "^2.0.3",
-        "tslint-etc": "^1.13.7",
+        "tslint-etc": "^1.13.9",
         "zone.js": "^0.11.3"
     },
     "description": "This is just my personal tslint configuration.",
