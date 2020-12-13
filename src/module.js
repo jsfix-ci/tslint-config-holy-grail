@@ -161,7 +161,7 @@ module.exports = {
         'template-banana-in-box': true,
         'template-click-events-have-key-events': true,
         'template-conditional-complexity': true,
-        'template-cyclomatic-complexity': true,
+        'template-cyclomatic-complexity': [true, 6],
         'template-mouse-events-have-key-events': true,
         'template-no-any': true,
         'template-no-autofocus': true,
