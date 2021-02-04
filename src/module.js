@@ -87,6 +87,7 @@ module.exports = {
         'no-submodule-imports': [
             true,
             '@angular/cdk/overlay',
+            '@angular/cdk/portal',
             '@angular/common/http',
             '@angular/core/testing',
             '@angular/material',
