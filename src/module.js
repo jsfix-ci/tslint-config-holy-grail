@@ -86,6 +86,7 @@ module.exports = {
         'no-string-throw': true,
         'no-submodule-imports': [
             true,
+            '@angular/cdk/overlay',
             '@angular/common/http',
             '@angular/core/testing',
             '@angular/material',
