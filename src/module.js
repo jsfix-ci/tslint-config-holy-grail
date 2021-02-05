@@ -96,7 +96,6 @@ module.exports = {
             '@angular/router/testing',
             '@ngrx/effects/testing',
             '@nrwl/angular/testing',
-            '@nrwl/nx/testing',
             'angulartics2/ga',
             'angulartics2/gst',
             'lodash-es',
