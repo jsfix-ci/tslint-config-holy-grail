@@ -95,6 +95,7 @@ module.exports = {
             '@angular/platform-browser-dynamic/testing',
             '@angular/router/testing',
             '@ngrx/effects/testing',
+            '@nrwl/angular/testing',
             '@nrwl/nx/testing',
             'angulartics2/ga',
             'angulartics2/gst',
